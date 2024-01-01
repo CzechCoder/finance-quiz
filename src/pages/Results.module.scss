@@ -1,0 +1,89 @@
+.results_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e7e9ed;
+  min-height: 100vh;
+  text-align: center;
+}
+.topbox {
+  position: relative;
+  background: #2870ed;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.donutbox {
+  position: relative;
+  display: flex;
+  width: 170px;
+  height: 170px;
+}
+.results_smajlik {
+  padding: 30px;
+}
+.progressbar_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.full_circle {
+  width: 100% !important;
+  height: 100% !important;
+}
+.main_textbox {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  padding-inline: 10px;
+  box-sizing: border-box;
+}
+.bottombox {
+  background: #e7e9ed;
+  padding: 30px 10px 10px 10px;
+  h4 {
+    color: #216490;
+  }
+}
+.metersbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px 20px 20px;
+}
+.meters_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointment_text {
+  margin: 20px 0px 20px 0px;
+}
+
+.textbox_maintext {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.headline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 51px;
+  text-align: center;
+  color: #216490 !important;
+}
+.buttonbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 600;
+  button {
+    margin: 5px !important;
+  }
+}
+.reset_button {
+  margin-inline: auto !important;
+  border: 1px solid red !important;
+  margin-block: 40px !important;
+}

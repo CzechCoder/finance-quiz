@@ -1,0 +1,27 @@
+.return_button {
+  position: absolute;
+  align-items: center;
+  top: 3px;
+  padding-left: 20px;
+  width: 4rem;
+  height: 20px;
+  display: flex;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: normal;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.counter_module {
+  position: fixed;
+  z-index: 5;
+  line-height: 1.1;
+  padding-left: 20px;
+}
+.question_counter {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 50px;
+}

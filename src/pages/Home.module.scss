@@ -1,0 +1,31 @@
+.hero_box {
+  background-color: #1976d2;
+  text-align: center;
+}
+.hero_container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h4 {
+    color: #eee;
+  }
+  h3,
+  p {
+    color: #fff;
+    margin-bottom: 25px;
+  }
+}
+.bottom_box {
+  height: 100%;
+}
+.bottom_container {
+  padding: 50px 30px;
+  display: flex !important;
+  gap: 50px;
+}
+.list_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

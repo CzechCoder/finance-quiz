@@ -1,0 +1,15 @@
+.bar_container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  a,
+  p {
+    font-weight: normal !important;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
